@@ -1,0 +1,20 @@
+.button {
+  font-size: 2rem;
+  font-family: var(--main-font);
+  width: 15vw;
+  height: 7vh;
+  background-color: white;
+  border: var(--main-border);
+  border-radius: var(--main-border-radius);
+  margin-bottom: 2vh;
+}
+
+.button:hover {
+  color: var(--main-color);
+  border-color: black;
+}
+
+.button:active {
+  background-color: var(--main-color);
+  color: black;
+}

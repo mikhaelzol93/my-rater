@@ -1,0 +1,25 @@
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  align-items: center;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+.rating-text {
+  font-size: 3rem;
+}
+
+.rating-text__value {
+  font-weight: 900;
+  color: var(--main-color);
+}

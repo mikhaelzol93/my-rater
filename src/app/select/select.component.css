@@ -1,0 +1,23 @@
+.label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: var(--main-font);
+  border: var(--main-border);
+  border-radius: var(--main-border-radius);
+  width: 50vw;
+  height: 10vh;
+  margin-bottom: 1vh;
+}
+
+.label__text {
+  margin-left: 1vw;
+}
+
+.label__select {
+  font-family: var(--main-font);
+  margin-right: 1vw;
+  font-size: 2rem;
+  border: var(--main-border);
+  border-radius: var(--main-border-radius);
+}

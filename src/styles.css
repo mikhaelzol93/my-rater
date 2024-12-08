@@ -1,0 +1,21 @@
+:root {
+  --main-color: dodgerblue;
+  --main-font: 'JetBrains Mono', monospace;
+  --main-border: 3px solid var(--main-color);
+  --main-border-radius: 0.4rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  font-family: var(--main-font);
+  width: 98vw;
+  height: 100vh;
+  font-size: 2rem;
+}

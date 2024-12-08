@@ -1,0 +1,13 @@
+<main class="main">
+  <span class="rating-text"
+    >Оценка: <b class="rating-text__value">{{ rating }}</b></span
+  >
+
+  <div class="content">
+    @for (criteriaName of criteriaNames; track $index) {
+    <app-select criteriaName="{{ criteriaName }}" (criteriaObject)="addItem($event)"></app-select>
+    }
+  </div>
+
+  <app-button (buttonEvent)="getRating()"></app-button>
+</main>
