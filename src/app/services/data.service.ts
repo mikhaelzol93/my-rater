@@ -18,7 +18,7 @@ export class DataService {
     'Глубина',
     'Увлекательность',
     'Перевод',
-    'Перевод',
+    'Связность',
   ];
 
   getCriteriaNames() {
